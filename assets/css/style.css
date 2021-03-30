@@ -15,10 +15,12 @@
 .form-group {
     min-width: 500px;
     min-height: 380px;
+    border:1px solid #565e64;;
 }
 
 input.form-control, button.btn {
     font-size: 20px;
+    font-weight: 600;
 }
 
 .container-fluid>a.navbar-brand {
