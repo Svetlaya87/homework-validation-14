@@ -42,12 +42,12 @@ small + small {
     display: none;
 }
 
-input:valid + small{
+input:valid + div > small{
     display: none;
 }
 
-input:valid +small+small {
-    display: block;
+input:valid + div > small+small {
+    display: inline-block;
 }
 
 @media (min-width:750px)  {
