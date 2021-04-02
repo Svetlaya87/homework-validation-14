@@ -38,7 +38,7 @@ ul.navbar-nav li.nav-item>a.nav-link {
 
 
 
-small + small {
+div > small + small {
     display: none;
 }
 
